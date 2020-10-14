@@ -7,13 +7,24 @@ background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Fire
 
 .hero{
     color: #fff;
-    margin-top: 10%;
-    margin-left: 32%;
-    font-size: 75px;
-    letter-spacing: 0.20em;
-    line-height: 1.2em;
-    font-family: 'Bangers', cursive;
+    /* margin-top : 10%; */
+    /* margin-left : 32%; */
+    
+    font-size : 75px;
+    letter-spacing : 0.20em;
+    line-height : 1.2em;
+    font-family : 'Bangers', cursive;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column;
 
+}
+
+.my{
+    letter-spacing: 0em;
+    line-height: 2em;
 }
 .he{
     color: #8db6cd;
@@ -22,4 +33,16 @@ background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Fire
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     
+}
+.car{
+    color: #8db6cd;
+    font-family : 'Bangers', cursive;
+    letter-spacing: 0.10em;
+    
+    
+
+}
+.pa{
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
 }
